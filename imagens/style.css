@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+}
+h1 {
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: auto;
+    background-color: rebeccapurple;
+    border: solid;
+    border-radius: 50px;
+    box-shadow: inset 2px 2px 3px 1px rgba(0, 0, 0, 0.534);
+    font-size: 46px;
+}
+h2 {
+    text-align: center;
+    font-size: 36px;
+    width: 100%;
+    margin: auto;
+    background-color: rebeccapurple;
+    color: white;
+    border-bottom: solid 3px rgba(255, 0, 0, 0.24);
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px 1px rgba(0, 0, 0, 0.397);
+}
+ul{
+    margin: left;
+    padding-left: 0;
+}
+li {
+    padding-left: 0;
+    list-style-position: inside;
+    
+}
+p {
+    margin: left;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
