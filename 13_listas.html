@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Reinaldo">
+    <meta name="description" content="Site legal">
+    <meta name="keywords" content="html5, tecnologia"|>
+    <link href="style.css" rel="stylesheet">
+    <title>Página de exemplo</title>
+    <style>
+    li ul {
+        height: 0;
+        overflow: hidden;
+        transition: height .5s;
+    }
+    li:hover{
+        background: #333;
+    }
+    li:hover ul {
+        height: 50px;
+    }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Item1</li>
+        <li>Item2
+            <ul>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+            </ul>
+        </li>
+        <li>Item3</li>
+
+    </ul>
+    <hr>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação de hypertexto</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem para criação de folhas de estilos</dd>
+    </dl>
+    <hr>
+    <dl>
+        <dt>www</dt>
+        <dt>internet</dt>
+        <dd>Rede mundial de computadores</dd>
+    </dl>
+</body>
+</html>
