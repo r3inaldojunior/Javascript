@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Reinaldo">
+    <meta name="description" content="Site legal">
+    <meta name="keywords" content="html5, tecnologia"|>
+    <link href="style.css" rel="stylesheet">
+    <title>Página de exemplo</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="#" method="GET" class="formLogin" target="_blank">
+        <fieldset>
+            <legend>Login</legend>
+            <legend> Dados Pessoais</legend>
+            <label>Email</label>
+            <input type="email" placeholder="Digite um e-mail válido...">
+            <br>
+            <label>numero de filhos</label>
+            <input type="number" min="0">
+            <br>
+            <label>nascimento</label>
+            <input type="date">
+            <br>
+            <p>Sexo:</p>
+            <label><input type="radio" name="sexo">Masculino</label>
+            <label><input type="radio" name="sexo">Feminino</label>
+            <br>
+            <label>Estado</label>
+            <select name="estado">
+                <option value="0">Selecionar</option>
+                <option value="SP">São Paulo</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label><input type="checkbox" name="html" value="html">HTML</label>
+            <label><input type="checkbox" name="css" value="css">CSS</label>
+            <label><input type="checkbox" name="js" value="js">Javascript</label>
+        </fieldset>
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea style="resize: none" name="msg" cols="30" rows="10"></textarea>
+            <textarea style="resize: none" name="contrato" cols="30" rows="10" readonly>Aqui o texto do contrato precisa ser aceito</textarea>
+            <label><input type="checkbox">Li e Aceito</label>
+
+            <input type="range" min="0" max="10" step="1">
+            <input type="time">
+            <input type="color">
+
+            <select multiple>
+                <option>Opcao 1</option>
+                <option>Opcao 2</option>
+                <option>Opcao 3</option>
+                <option>Opcao 4</option>
+                <option>Opcao 5</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="mandar"> 
+        <input type="button" value="button">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
